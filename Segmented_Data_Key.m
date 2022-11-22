@@ -15,22 +15,12 @@ title('Rows 150-200')
 
 %% Create a subplot with 4 panels and plot 50 rows in each panel 
 figure 
-subplot(2,2,1)
+subplot(2,1,1)
 plot(Data(1:50,1))
 title('Row 1-50')
 box off
 
-subplot(2,2,2)
+subplot(2,1,2)
 plot(Data(50:100,1))
 title('Row 50-100')
-box off
-
-subplot(2,2,3)
-plot(Data(100:150,1))
-title('Row 100-150')
-box off
-
-subplot(2,2,4)
-plot(Data(150:200,1))
-title('Row 150-200')
 box off
